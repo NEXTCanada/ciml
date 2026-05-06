@@ -820,7 +820,7 @@ efficient.  To run gradient descent for one step will take $\cO(ND)$
 time, with a relatively small constant.  You will have to run $K$
 iterations, yielding an overall runtime of $\cO(KND)$.  On the other
 hand, the closed form solution requires constructing $\mat X\T\mat X$,
-which takes $\cO(D^2 N)$ time.  The inversion take $\cO(D^3)$ time
+which takes $\cO(D^2 N)$ time.  The inversion takes $\cO(D^3)$ time
 using standard matrix inversion routines.  The final multiplications
 take $\cO(ND)$ time.  Thus, the overall runtime is on the order
 $\cO(D^3 + D^2 N)$.  In most standard cases (though this is becoming
